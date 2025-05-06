@@ -5,8 +5,8 @@ def create_connection():
     try:
         conn = mysql.connector.connect(
             host="localhost", 
-            user="root",  
-            password="Nigg@c@t1",  
+            user="username",  #enter your username
+            password="password",  #enter your password
             database="game_store"  
         )
         if conn.is_connected():
